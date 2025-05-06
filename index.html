@@ -1,0 +1,292 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Alyasa Pradipta Haikal | Professional CV</title>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">  
+</head>  
+
+<script>  
+  // Show popup with skill details  
+  function showSkillPopup(title, description) {  
+      const popup = document.getElementById('skill-popup');  
+      document.getElementById('popup-title').textContent = title;  
+      document.getElementById('popup-description').textContent = description;  
+      popup.style.display = 'flex';  
+  }  
+
+  // Close popup  
+  function closePopup() {  
+      document.getElementById('skill-popup').style.display = 'none';  
+  }  
+
+  // Close popup if clicked outside content  
+  document.addEventListener('click', (e) => {  
+      const popup = document.getElementById('skill-popup');  
+      if (e.target === popup) {  
+          closePopup();  
+      }  
+  });  
+</script>
+
+<body>  
+    <!-- Header Section -->  
+    <header class="main-header">  
+        <div class="header-content">  
+            <h1 class="logo">Kal's CV</h1>  
+            <nav class="main-nav">  
+                <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>  
+                <a href="Certificate.html" class="nav-link"><i class="fas fa-certificate"></i> Certificates</a>  
+            </nav>  
+        </div>  
+    </header>  
+
+    <main class="container-cv">  
+        <!-- Profile Section -->  
+        <section class="profile-section">  
+            <div class="profile-content">  
+                <div class="profile-text">  
+                    <p class="greeting"><i class="fas fa-hand-peace"></i> Hello, I'm</p>  
+                    <h2 class="name">Alyasa Pradipta Haikal</h2>  
+                    <p class="tagline">Undergraduate of Computer Science at Cakrawala | Robotics Mentor | IT Support | Web Developer</p>  
+                </div>  
+                <div class="profile-image">  
+                    <img src="ASSET/Foto Profile/ProfilePhoto.webp" alt="Profile Photo">  
+                </div>  
+            </div>  
+        </section>  
+
+        <!-- About Me Section -->  
+        <section class="section about-section">  
+            <h3 class="section-title"><i class="fas fa-user"></i> About Me</h3>  
+            <div class="about-content">  
+                <p>  
+                  Second-semester Computer Science student at Cakrawala University with foundational knowledge in computer programming development. Currently enhancing skills in C++, Java, HTML, CSS, and LabView, with hands-on experience in academic projects, including the design and development of applications. Passionate about pursuing a career in Web Developer, IT Networking, IT Support, IoT, and robotics.
+                  Award-winning robotics competitor, demonstrating strong teamwork and measurable project outcomes. Additionally, as a robotics mentor at SMKN 39 Jakarta, I bring teaching expertise alongside specialization in web development and IT support, blending technical proficiency with collaborative leadership.
+                </p>  
+                <div class="about-highlights">  
+                    <div class="highlight-card">  
+                        <i class="fas fa-brain"></i>  
+                        <h4>Passionate</h4>  
+                        <p>Always eager to learn the latest technologies in robotics and programming</p>  
+                    </div>  
+                    <div class="highlight-card">  
+                        <i class="fas fa-lightbulb"></i>  
+                        <h4>Creative</h4>  
+                        <p>Capable of providing innovative solutions to complex technical problems</p>  
+                    </div>  
+                    <div class="highlight-card">  
+                        <i class="fas fa-hands-helping"></i>  
+                        <h4>Collaborative</h4>  
+                        <p>Effective in both team and independent work environments</p>  
+                    </div>  
+                </div>  
+            </div>  
+        </section>  
+
+        <!-- Work Experience Section -->  
+        <section class="section">  
+            <h3 class="section-title"><i class="fas fa-briefcase"></i> Work Experience</h3>  
+            <div class="experience-container">  
+                <a href="https://smkn39jakarta.sch.id/" class="job-card-link" target="_blank">  
+                    <div class="job-card">  
+                        <div class="job-header">  
+                            <h4><i class="fas fa-robot"></i> Robotic Mentor | SMKN 39 Jakarta</h4>  
+                            <span class="job-date">June 2024 - Current</span>  
+                        </div>  
+                        <ul class="job-details">  
+                            <li>Teaching basic concepts and deep understanding of robot algorithms to 8 or more students each week</li>  
+                            <li>Increased student project efficiency by 78% by practicing programming techniques to optimize robot performance</li>  
+                            <li>Organize simulations and hands-on practice sessions, with 95% active participation from participants</li>  
+                        </ul>  
+                    </div>  
+                </a>  
+
+                <a href="https://sabikerja.com/" class="job-card-link" target="_blank">  
+                    <div class="job-card">  
+                        <div class="job-header">  
+                            <h4><i class="fas fa-code"></i> Fullstack Developer Intern | SabiKerja</h4>  
+                            <span class="job-date">Feb 2025 - Mar 2025</span>  
+                        </div>  
+                        <ul class="job-details">  
+                            <li>Redesigned the UI to enhance aesthetics and user experience, improving user engagement by 25%</li>  
+                            <li>Developed secure and user-friendly login pages, reducing login errors by 20%</li>  
+                        </ul>  
+                    </div>  
+                </a>  
+
+                <a href="https://waringinhospitality.com/id" class="job-card-link" target="_blank">  
+                    <div class="job-card">  
+                        <div class="job-header">  
+                            <h4><i class="fas fa-laptop"></i> IT Support Intern | Luminor Hotel</h4>  
+                            <span class="job-date">Jan 2023 - May 2023</span>  
+                        </div>  
+                        <ul class="job-details">  
+                            <li>Maintained and repaired IT equipment, reducing downtime by 35% and extending device lifespan</li>  
+                            <li>Troubleshot computer operation issues, resolving 90% of problems within 6 hours</li>  
+                            <li>Assisted in room maintenance, ensuring 100% operational readiness for daily operations</li>  
+                        </ul>  
+                    </div>  
+                </a>  
+            </div>  
+        </section>  
+
+        <!-- Education Section -->  
+        <section class="section">  
+            <h3 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h3>  
+            <div class="education-container">  
+                <a href="https://cakrawala.ac.id/" class="education-card-link" target="_blank">  
+                    <div class="education-card">  
+                        <i class="fas fa-university"></i>  
+                        <div>  
+                            <h4>Cakrawala University</h4>  
+                            <p>bachelor of computer science</p>
+                            <p>2024 - 2028</p>
+                            <ul class="achievements-list">  
+                                <li><i class="fas fa-code"></i> Mastered programming algorithm fundamentals in <strong>Algorithm Design</strong></li>  
+                                <li><i class="fas fa-network-wired"></i> Configured VLANs and studied internet protocols in <strong>Computer Networking</strong></li>  
+                                <li><i class="fas fa-mobile-alt"></i> Designed wireframes and conducted UX research for <em>GoolHub</em> in <strong>Human-Computer Interaction</strong></li>  
+                                <li><i class="fab fa-html5"></i> Developed web programming foundations (HTML/CSS/PHP) in <strong>Web Client Development</strong></li> 
+                            </ul>    
+                        </div>  
+                    </div>  
+                </a>  
+
+                <a href="https://smkn39jkt.sch.id/" class="education-card-link" target="_blank">  
+                    <div class="education-card">  
+                        <i class="fas fa-school"></i>  
+                        <div>  
+                            <h4>Vocational High School 39 Jakarta</h4>  
+                            <p>industrial electronics engineering</p>
+                            <p>2021 - 2024</p>  
+                            <ul class="achievements-list">  
+                                <li><i class="fas fa-microchip"></i> Understood electronics fundamentals and circuit design</li>  
+                                <li><i class="fas fa-project-diagram"></i> Designed PCB layouts from schematic to etching</li>  
+                                <li><i class="fas fa-microchip"></i> Programmed and operated microcontrollers</li>  
+                                <li><i class="fas fa-lightbulb"></i> Developed entrepreneurial skills</li> 
+                            </ul>                       
+                        </div>  
+                    </div>  
+                </a>  
+            </div>  
+        </section>  
+
+<!-- Skills Section -->  
+<section class="section">  
+    <h3 class="section-title"><i class="fas fa-tools"></i> Skills</h3>  
+    <div class="skills-grid">  
+        <!-- Soft Skills -->  
+        <div class="skill-category">  
+            <h4><i class="fas fa-comments"></i> Soft Skills</h4>  
+            <ul class="skills-list">  
+                <li class="skill-item" onclick="showSkillPopup('Problem Solving', 'Creative solutions for technical challenges using analytical thinking.')">  
+                    <i class="fas fa-lightbulb"></i> Problem Solving  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Collaboration', 'Effective teamwork in projects and mentoring.')">  
+                    <i class="fas fa-users"></i> Teamwork  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Communication', 'Clear articulation of technical concepts to diverse audiences.')">  
+                    <i class="fas fa-comment-dots"></i> Communication  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Adaptability', 'Quickly learning new technologies and adjusting to project requirements.')">  
+                    <i class="fas fa-random"></i> Adaptability  
+                </li>  
+            </ul>  
+        </div>  
+
+        <!-- Hard Skills -->  
+        <div class="skill-category">  
+            <h4><i class="fas fa-laptop-code"></i> Hard Skills</h4>  
+            <ul class="skills-list">  
+                <li class="skill-item" onclick="showSkillPopup('Web Development', 'Fullstack development with HTML/CSS/PHP.')">  
+                    <i class="fab fa-html5"></i> Web Development  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Robotics', 'Robot programming and algorithm design for competitions.')">  
+                    <i class="fas fa-robot"></i> Robotics  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Networking', 'VLAN configuration and internet protocol implementation.')">  
+                    <i class="fas fa-network-wired"></i> Networking  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Microcontrollers', 'Programming and operation of embedded systems.')">  
+                    <i class="fas fa-microchip"></i> Microcontrollers  
+                </li>  
+            </ul>  
+        </div>  
+
+        <!-- Digital Tools -->  
+        <div class="skill-category">  
+            <h4><i class="fas fa-laptop"></i> Digital Tools</h4>  
+            <ul class="skills-list">  
+                <li class="skill-item" onclick="showSkillPopup('Figma', 'Wireframing and UX research for application design.')">  
+                    <i class="fab fa-figma"></i> Figma  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('LabView', 'Visual programming for robotics and instrumentation systems.')">  
+                    <i class="fas fa-flask"></i> LabView  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('PCB Design', 'Electronic circuit design from schematic to physical PCB production.')">  
+                    <i class="fas fa-project-diagram"></i> PCB Design  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Google Workspace', 'Productivity tools including Docs, Sheets, and Slides for collaboration.')">  
+                    <i class="fab fa-google"></i> Google Workspace  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('VS Code', 'Primary code editor with extensions for web and embedded development.')">  
+                    <i class="fas fa-code"></i> VS Code  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('VHP Hotel', 'Property management system for hotel operations and reservations.')">  
+                    <i class="fas fa-hotel"></i> VHP Hotel  
+                </li>  
+            </ul>
+        </div>  
+
+        <!-- Languages -->  
+        <div class="skill-category">  
+            <h4><i class="fas fa-language"></i> Languages</h4>  
+            <ul class="skills-list">  
+                <li class="skill-item" onclick="showSkillPopup('English', 'Basic working proficiency.')">  
+                    <i class="fas fa-globe"></i> English  
+                </li>  
+                <li class="skill-item" onclick="showSkillPopup('Indonesian', 'Native proficiency.')">  
+                    <i class="fas fa-landmark"></i> Indonesian  
+                </li>  
+            </ul>  
+        </div>  
+    </div>  
+</section>  
+
+<!-- Skill Popup (Hidden by Default) -->  
+<div id="skill-popup" class="popup">  
+    <div class="popup-content">  
+        <span class="close-btn" onclick="closePopup()">&times;</span>  
+        <h3 id="popup-title">Skill Title</h3>  
+        <p id="popup-description">Skill description goes here.</p>  
+    </div>  
+</div>
+        <!-- Contact Section -->  
+        <section class="section contact-section">  
+            <h3 class="section-title"><i class="fas fa-envelope"></i> Get In Touch</h3>  
+            <div class="social-container">  
+                <a href="https://www.linkedin.com/in/alyasa-pradipta-haikal" class="social-link" target="_blank">  
+                    <i class="fab fa-linkedin"></i> LinkedIn  
+                </a>  
+                <a href="https://wa.me/qr/AMPRMXLKYHNDI1" class="social-link" target="_blank">  
+                    <i class="fab fa-whatsapp"></i> WhatsApp  
+                </a>  
+                <a href="https://www.instagram.com/hai_kal.s?igsh=MTR0ZjkxZWk0azZ2aA==" class="social-link" target="_blank">  
+                    <i class="fab fa-instagram"></i> Instagram  
+                </a>  
+                <a href="mailto:alyasahaikal78@gmail.com" class="social-link">  
+                    <i class="fas fa-envelope"></i> Email  
+                </a>  
+            </div>  
+        </section>  
+    </main>  
+
+    <footer class="main-footer">  
+        <p>&copy; 2025 Alyasa Pradipta Haikal. All rights reserved.</p>  
+    </footer>  
+</body>  
+</html>
